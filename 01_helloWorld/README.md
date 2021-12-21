@@ -36,15 +36,4 @@ In this file we have a simple function called helloWorld that returns an empty s
 
 Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
 
-Just to make sure, in case you're confused at this point, the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!`.  Punctuation and capitalization definitely matter here, so double check that if the test still isn't passing.
-
-this is what the final function should look like:
-```javascript
-const helloWorld = function() {
-  return 'Hello, World!'
-}
-
-module.exports = helloWorld
-```
-
-For the most part we've set up these tests in such a way that you only have to write the code being tested.  You should not have to worry about importing or exporting anything at this stage.. so just work around that bit of the code and write what it takes to make them pass!
+Just to make sure, in case you're confused at this point, the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!
